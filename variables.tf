@@ -7,3 +7,7 @@ variable "instances_subnet_2" {
   type = map
   description = "List of instances and their attributes"
 }
+
+variable "vpcs_google" {
+  type = map
+}
